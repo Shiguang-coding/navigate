@@ -81,47 +81,47 @@ hotTools:
 aiChat:
   - name: ChatGPT
     url: https://chat.openai.com/
-    img: /images/logos/ChatGPT.png
+    img: /img/ChatGPT.png
     description: ChatGPT是一款由OpenAI团队开发的聊天机器人程序，其对话能力近似于真人，甚至还可以完成画图、做视频、撰写邮件、翻译、写代码，写论文等各种任务，目前主要有GPT3.5和GPT4.0这两个版本
   - name: 阿里通义千问
     url: https://tongyi.aliyun.com/
-    img: /images/logos/通义千问.png
+    img: /img/通义千问.png
     description: 通义千问，是阿里云推出的一个超大规模的语言模型，功能包括多轮对话、文案创作、逻辑推理、多模态理解、多语言支持。能够跟人类进行多轮的交互，也融入了多模态的知识理解，且有文案创作能力，能够续写小说，编写邮件等。
   - name: 字节Coze
     url: https://www.coze.com/
-    img: /images/logos/Coze.png
+    img: /img/Coze.png
     description: Coze是由字节跳动在海外推出的一个AI聊天机器人和应用开发平台，专为开发下一代 AI 聊天机器人而设计。可以通过这个平台快速创建各种类型的聊天机器人，并将其发布到各类社交平台和通讯软件上。
   - name: 讯飞星火
     url: https://xinghuo.xfyun.cn/
-    img: /images/logos/讯飞星火.png
+    img: /img/讯飞星火.png
     description: 讯飞星火认知大模型，是由科大讯飞推出的新一代认知智能大模型，拥有跨领域的知识和语言理解能力，能够基于自然对话方式理解与执行任务，提供语言理解、知识问答、逻辑推理、数学题解答、代码理解与编写等多种能力。
   - name: 百度AI伙伴
     url: https://chat.baidu.com/
-    img: /images/logos/百度AI伙伴.png
+    img: /img/百度AI伙伴.png
     description: 百度上线的搜索AI伙伴，用户可免费进行对话、A绘画和其他内容创作，百度搜索A伙伴是百度最新上线的基于文心大模型的AI搜索对话工具，目前处于免费测试中。申请了文心一言测试的用户可在桌面端百度网站或移动端的百度APP点击右上角的A图标，即可进入A聊天界面，或直接访问chat.baidu.com，使用前需要登录百度账号，且账号需要与申请了文心一言测试的账号一致。
   - name: 文心一言
     url: https://yiyan.baidu.com/
-    img: /images/logos/文心一言.png
+    img: /img/文心一言.png
     description: 百度全新一代知识增强大语言模型，文心大模型家族的新成员，能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。
   - name: 豆包AI
     url: https://www.doubao.com/
-    img: /images/logos/豆包.png
+    img: /img/豆包.png
     description: 豆包是基于抖音云雀模型开发，提供聊天机器人、写作助手以及英语学习助手等功能。
   - name: 智谱清言
     url: https://chatglm.cn/
-    img: /images/logos/智谱清言.png
+    img: /img/智谱清言.png
     description: 清华技术成果转化的公司智谱AI研发的支持中英双语的对话机器人。千亿参数对话模型，基于ChatGLM2模型开发，支持多轮对话，具备内容创作、信息归纳总结等能力。
   - name: ChatLaw法律大模型
     url: https://www.chatlaw.cloud/
-    img: /images/logos/ChatLaw.png
+    img: /img/ChatLaw.png
     description: 由北大团队开发发布的中文法律大模型。
   - name: AI大师助手
     url: http://zs.aidashi.cn/
-    img: /images/logos/AI大师助手.png
+    img: /img/AI大师助手.png
     description: AI大师助手是一款免费AI对话、写作工具，主要是免费的，可以回答你的各种提问，帮你写文章、写剧本、写会议记录、写小红书风格文案等，还可以帮你写作论文。
   - name: Workers AI LLM Playground 
     url: https://playground.ai.cloudflare.com/
-    img: /images/logos/WorkersAILLMPlayground.png
+    img: /img/WorkersAILLMPlayground.png
     description: AI大师助手是一款免费AI对话、写作工具，主要是免费的，可以回答你的各种提问，帮你写文章、写剧本、写会议记录、写小红书风格文案等，还可以帮你写作论文。
 
 
@@ -129,25 +129,25 @@ aiChat:
 community:
   - name: CSDN
     url: https://www.csdn.net/
-    img: /images/logos/csdn.png
+    img: /img/csdn.png
     description: CSDN是全球知名中文IT技术交流平台,创建于1999年,包含原创博客、精品问答、职业培训、技术论坛、资源下载等产品服务,提供原创、优质、完整内容的专业IT技术开发社区.
 
   - name: 博客园
     url: https://www.cnblogs.com/
-    img: /images/logos/cnblogs.png
+    img: /img/cnblogs.png
     description: 博客园是一个面向开发者的知识分享社区，创立于2004年1月。 自创建以来，博客园一直致力并专注于为开发者打造一个纯净的技术交流社区，推动并帮助开发者通过互联网分享知识，从而让更多开发者从中受益。 博客园的使命是帮助开发者用代码改变世界 。
 
   - name: 知乎
     url: https://www.zhihu.com/
-    img: /images/logos/知乎.png
+    img: /img/知乎.png
     description: 知乎，中文互联网高质量的问答社区和创作者聚集的原创内容平台，于 2011 年 1 月正式上线，以「让人们更好的分享知识、经验和见解，找到自己的解答」为品牌使命。知乎凭借认真、专业、友善的社区氛围、独特的产品机制以及结构化和易获得的优质内容，聚集了中文互联网科技、商业、影视、时尚、文化等领域最具创造力的人群，已成为综合性、全品类、在诸多领域具有关键影响力的知识分享社区和创作者聚集的原创内容平台，建立起了以社区驱动的内容变现商业模式
   - name: Stack Overflow
     url: https://stackoverflow.co/
-    img: /images/logos/stackoverflow.png
+    img: /img/stackoverflow.png
     description: Stack Overflow是一个与程序相关的IT技术问答网站，据说99.9999%的问题都能在这里找到答案
   - name: 开源中国
     url: https://www.oschina.net/
-    img: /images/logos/开源中国.png
+    img: /img/开源中国.png
     description: 开源中国社区 ( OSCHINA ，简称 OSC )成立于2008 年8 月，收录全球知名开源项目 5 万余款，是一个专注于为中国开发者提供最新开源资讯、软件更新资讯、技术分享和交流的技术平台。
 
 
