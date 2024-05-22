@@ -1,4 +1,4 @@
-favicon: /favicon.ico
+favicon: /img/favicon.ico
 banner: /images/webstack_banner_cn.png
 
 logo:
@@ -28,81 +28,145 @@ githubCorner: '<a href="https://github.com/Shiguang-coding/navigate" class="gith
 
 expandAll: false
 menu:
-  - name: 关于我
-    icon: far fa-star
+  - name: 关于站长
+    icon: far fa-user-circle
     submenu:
-      - name: 认识我
-        icon: fas fa-blog
+      - name: 社交媒体
+        icon: fas fa-address-card
         config: aboutme
-  - name: AI工具
-    icon: far fa-star
+  - name: 学无止境
+    icon: fas fa-graduation-cap
+    submenu:
+      - name: 在线视频
+        icon: fa fa-cloud
+        config: onlineVideo
+      - name: 在线文档
+        icon: fa fa-file
+        config: onlineDocument
+      - name: 优质博客
+        icon: fas fa-blog
+        config: gradeBlog
+  - name: 人工智能
+    icon: fa fa-child
     submenu:
       - name: AI对话
-        icon: fas fa-blog
+        icon: fa fa-comment
         config: aiChat
-  - name: 常用工具
-    icon: far fa-star
-    config: hotTools
-  - name: 开发工具
+      - name: AI应用
+        icon: fa fa-cog
+        config: aiApplication
+      - name: AI导航
+        icon: fa fa-plane
+        config: aiNavication
+  - name: 软件工具
     icon: fas fa-tools
     submenu:
+      - name: 应用下载
+        icon: fa fa-download
+        config: software
+      - name: 实用工具
+        icon: fa fa-briefcase
+        config: practicalTools
+      - name: 在线处理
+        icon: fa fa-sitemap
+        config: onlineExecute
+      - name: 工具聚合
+        icon: fa fa-cogs
+        config: toolsGather
+      - name: 接码平台
+        icon: fa fa-envelope
+        config: connectCode
+  - name: 社区论坛
+    icon: fa fa-users
+    submenu:
       - name: 开发社区
-        icon: fas fa-tools
-        config: community
+        icon: fa fa-trophy
+        config: devCommunity
+      - name: 技术论坛
+        icon: fa fa-university
+        config: forum
+  - name: 开发工具
+    icon: fa fa-suitcase
+    submenu:
+      - name: 托管平台
+        icon: fa fa-truck
+        config: trusteeship
+      - name: 开源应用
+        icon: fa fa-ship
+        config: openSouce
+      - name: 建站工具
+        icon: fa fa-wrench
+        config: createStation
+  - name: 休闲娱乐
+    icon: fa fa-coffee
+    submenu:
+      - name: 在线观影
+        icon: fa fa-eye
+        config: watchMovie
+  - name: 酷站分享
+    icon: fa fa-paw
+    config: coolStation
+  - name: 导航网站
+    icon: fa fa-paper-plane
+    config: navStation
+  - name: 遨游世界
+    icon: fas fa-globe
+    config: helloWorld
   
 
 aboutme:
   - name: 時光的博客园子
     url: https://blog.shiguangcoding.eu.org/
     img: /img/avatar.jpg
-    description: 一个实用的博客
-
-
-
-# testPage:
-#   - name: Child Page
-#     url: /child
-#     img: /images/logos/myblog.png
-#     description: 子页面测试
-
-
-
-hotTools:
+    description: 个人博客
   - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
+    url: https://github.com/Shiguang-coding/
+    img: /img/github.png
+    description: 時光的Github
 
 
+
+
+software:
+  - name: 果核剥壳
+    url: https://www.ghxi.com/
+    img: /img/果核剥壳.png
+    description: 果核剥壳是一家综合科技站点，看新闻，分享破解软件、绿色软件，Windows系统。
+  - name: 异次元软件世界
+    url: https://www.iplaysoft.com/
+    img: /img/异次元软件世界.png
+    description: 极具人气和特色的软件网站！
+  - name: 沃下载
+    url: http://www.wodown.com/
+    img: /img/沃下载.png
+    description: 实用的免费下载站
+
+#AI对话
 aiChat:
   - name: ChatGPT
     url: https://chat.openai.com/
     img: /img/ChatGPT.png
-    description: ChatGPT是一款由OpenAI团队开发的聊天机器人程序，其对话能力近似于真人，甚至还可以完成画图、做视频、撰写邮件、翻译、写代码，写论文等各种任务，目前主要有GPT3.5和GPT4.0这两个版本
+    description: 一款由OpenAI团队开发的聊天机器人程序。
   - name: 阿里通义千问
     url: https://tongyi.aliyun.com/
     img: /img/通义千问.png
-    description: 通义千问，是阿里云推出的一个超大规模的语言模型，功能包括多轮对话、文案创作、逻辑推理、多模态理解、多语言支持。能够跟人类进行多轮的交互，也融入了多模态的知识理解，且有文案创作能力，能够续写小说，编写邮件等。
+    description: 阿里云推出的一个超大规模的语言模型。
   - name: 字节Coze
     url: https://www.coze.com/
     img: /img/Coze.png
-    description: Coze是由字节跳动在海外推出的一个AI聊天机器人和应用开发平台，专为开发下一代 AI 聊天机器人而设计。可以通过这个平台快速创建各种类型的聊天机器人，并将其发布到各类社交平台和通讯软件上。
+    description: 由字节跳动在海外推出的一个AI聊天机器人和应用开发平台。
   - name: 讯飞星火
     url: https://xinghuo.xfyun.cn/
     img: /img/讯飞星火.png
-    description: 讯飞星火认知大模型，是由科大讯飞推出的新一代认知智能大模型，拥有跨领域的知识和语言理解能力，能够基于自然对话方式理解与执行任务，提供语言理解、知识问答、逻辑推理、数学题解答、代码理解与编写等多种能力。
+    description: 由科大讯飞推出的新一代认知智能大模型。
   - name: 百度AI伙伴
     url: https://chat.baidu.com/
     img: /img/百度AI伙伴.png
-    description: 百度上线的搜索AI伙伴，用户可免费进行对话、A绘画和其他内容创作，百度搜索A伙伴是百度最新上线的基于文心大模型的AI搜索对话工具，目前处于免费测试中。申请了文心一言测试的用户可在桌面端百度网站或移动端的百度APP点击右上角的A图标，即可进入A聊天界面，或直接访问chat.baidu.com，使用前需要登录百度账号，且账号需要与申请了文心一言测试的账号一致。
+    description: 百度上线的搜索AI伙伴。。
   - name: 文心一言
     url: https://yiyan.baidu.com/
     img: /img/文心一言.png
-    description: 百度全新一代知识增强大语言模型，文心大模型家族的新成员，能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。
+    description: 百度全新一代知识增强大语言模型。
   - name: 豆包AI
     url: https://www.doubao.com/
     img: /img/豆包.png
@@ -110,7 +174,7 @@ aiChat:
   - name: 智谱清言
     url: https://chatglm.cn/
     img: /img/智谱清言.png
-    description: 清华技术成果转化的公司智谱AI研发的支持中英双语的对话机器人。千亿参数对话模型，基于ChatGLM2模型开发，支持多轮对话，具备内容创作、信息归纳总结等能力。
+    description: 清华技术成果转化的公司智谱AI研发的支持中英双语的对话机器人。
   - name: ChatLaw法律大模型
     url: https://www.chatlaw.cloud/
     img: /img/ChatLaw.png
@@ -118,40 +182,541 @@ aiChat:
   - name: AI大师助手
     url: http://zs.aidashi.cn/
     img: /img/AI大师助手.png
-    description: AI大师助手是一款免费AI对话、写作工具，主要是免费的，可以回答你的各种提问，帮你写文章、写剧本、写会议记录、写小红书风格文案等，还可以帮你写作论文。
+    description: AI大师助手是一款免费AI对话、写作工具，主要是免费的。
   - name: Workers AI LLM Playground 
     url: https://playground.ai.cloudflare.com/
     img: /img/WorkersAILLMPlayground.png
-    description: AI大师助手是一款免费AI对话、写作工具，主要是免费的，可以回答你的各种提问，帮你写文章、写剧本、写会议记录、写小红书风格文案等，还可以帮你写作论文。
+    description: 一个AI聚合应用平台。
+
+#AI应用
+
+aiApplication:
+  - name: bardpdf
+    url: https://bardpdf.dev/
+    img: /img/bardpdf.png
+    description: 一款可以通过Gemini与PDF文件进行交流的工具。
+
+
+# AI导航
+aiNavication:
+  - name: AI大师
+    url: https://www.aidashi.cn/
+    img: /img/AI大师.png
+    description: 一站式AI工具、AI资讯、AI教程分享网站！
+  - name: AI研究所
+    url: https://www.aiyjs.com/
+    img: /img/AI研究所.png
+    description: 收录 AI 相关工具
 
 
 
-community:
+
+# 开发社区
+devCommunity:
   - name: CSDN
     url: https://www.csdn.net/
     img: /img/csdn.png
-    description: CSDN是全球知名中文IT技术交流平台,创建于1999年,包含原创博客、精品问答、职业培训、技术论坛、资源下载等产品服务,提供原创、优质、完整内容的专业IT技术开发社区.
-
+    description: 知名中文IT技术交流平台。
   - name: 博客园
     url: https://www.cnblogs.com/
     img: /img/cnblogs.png
-    description: 博客园是一个面向开发者的知识分享社区，创立于2004年1月。 自创建以来，博客园一直致力并专注于为开发者打造一个纯净的技术交流社区，推动并帮助开发者通过互联网分享知识，从而让更多开发者从中受益。 博客园的使命是帮助开发者用代码改变世界 。
-
+    description: 一个面向开发者的知识分享社区。
   - name: 知乎
     url: https://www.zhihu.com/
     img: /img/知乎.png
-    description: 知乎，中文互联网高质量的问答社区和创作者聚集的原创内容平台，于 2011 年 1 月正式上线，以「让人们更好的分享知识、经验和见解，找到自己的解答」为品牌使命。知乎凭借认真、专业、友善的社区氛围、独特的产品机制以及结构化和易获得的优质内容，聚集了中文互联网科技、商业、影视、时尚、文化等领域最具创造力的人群，已成为综合性、全品类、在诸多领域具有关键影响力的知识分享社区和创作者聚集的原创内容平台，建立起了以社区驱动的内容变现商业模式
+    description: 中文互联网高质量的问答社区和创作者聚集的原创内容平台。
   - name: Stack Overflow
     url: https://stackoverflow.co/
     img: /img/stackoverflow.png
-    description: Stack Overflow是一个与程序相关的IT技术问答网站，据说99.9999%的问题都能在这里找到答案
+    description: 一个与程序相关的IT技术问答网站。
   - name: 开源中国
     url: https://www.oschina.net/
     img: /img/开源中国.png
-    description: 开源中国社区 ( OSCHINA ，简称 OSC )成立于2008 年8 月，收录全球知名开源项目 5 万余款，是一个专注于为中国开发者提供最新开源资讯、软件更新资讯、技术分享和交流的技术平台。
+    description: 一个专注于为中国开发者提供最新开源资讯、软件更新资讯、技术分享和交流的技术平台。
+
+
+# 技术论坛
+forum:
+  - name: HelloGitHub
+    url: https://hellogithub.com/
+    img: /img/HelloGitHub.png
+    description: 这个网站收集Github上有趣、入门级的开源项目。
+  - name: 乐愚社区
+    url: https://bbs.leyuxyz.com/
+    img: /img/乐愚社区.png
+    description: 乐愚社区，做一个有价值的社区 。
+  - name: Linux Do
+    url: https://linux.do/
+    img: /img/linuxdo.png
+    description: 一个包含快问快答、人工智能、软件分享、软件开发等模块的知识分享社区。
+  - name: 虫部落
+    url: https://www.chongbuluo.com/
+    img: /img/虫部落.png
+    description: 一个纯粹的搜索知识、技术和经验分享平台。
+  - name: 吾爱破解
+    url: https://www.52pojie.cn/
+    img: /img/吾爱破解.png
+    description: 由无数热衷于软件加密解密及反病毒爱好者共同维护。
+  - name: JAVA知识分享网
+    url: http://www.java1234.com/
+    img: /img/JAVA知识分享网.png
+    description: 专业的Java资源下载网站。
 
 
 
+# 在线视频
+onlineVideo:
+  - name: 哔哩哔哩
+    url: https://www.bilibili.com/
+    img: /img/哔哩哔哩.png
+    description: 哔哩哔哩是中国年轻世代高度聚集的综合性视频社区，被用户亲切地称为“B站”。
+  - name: 中国大学MOOC
+    url: https://www.icourse163.org/
+    img: /img/中国大学MOOC.png
+    description: 中国大学MOOC(慕课)_国家精品课程在线学习平台
+  - name: 慕课网
+    url: https://www.imooc.com/
+    img: /img/慕课网.png
+    description: 慕课网是垂直的互联网IT技能学习网站。
+  - name: 腾讯课堂
+    url: https://ke.qq.com/
+    img: /img/腾讯课堂.png
+    description: 腾讯推出的专业在线教育平台。
+  - name: 网易公开课
+    url: https://open.163.com/
+    img: /img/网易公开课.png
+    description: 网易公开课汇集清华、北大、哈佛、耶鲁等世界名校共上千门课程，覆盖科学、经济、人文、哲学等22个领域。
+  - name: 网易云课堂
+    url: https://study.163.com/
+    img: /img/网易云课堂.png
+    description: 网易云课堂，一个专注于成人终身学习的在线教育平台。
+
+# 在线文档
+onlineDocument:
+  - name: 菜鸟教程
+    url: https://www.runoob.com/
+    img: /img/菜鸟教程.png
+    description: 菜鸟教程提供了编程的基础技术教程, 介绍了HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识。
+  - name: w3school
+    url: https://www.w3school.com.cn/
+    img: /img/w3school.png
+    description: 全球最大的中文 Web 技术教程。
+  - name: 廖雪峰的官方网站
+    url: https://www.liaoxuefeng.com/
+    img: /img/廖雪峰的官方网站.png
+    description: 廖雪峰是一位知名的编程教育者，他的网站提供了Java、Python、JavaScript、区块链等多种编程语言的零基础教程。
+  - name: Java全栈知识体系
+    url: https://www.pdai.tech/
+    img: /img/Java全栈知识体系.png
+    description: 包含Java 基础, Java 部分源码, JVM, Spring, Spring Boot, Spring Cloud, 源码阅读，读书笔记, 开源项目等
+  - name: OpenStax
+    url: https://openstax.org/
+    img: /img/OpenStax.png
+    description: OpenStax 是莱斯大学的一项非盈利教育项目。是世界上最大的免费开放教育资源 (OER) 出版商。 
+  - name: 美国国家地理杂志
+    url: https://www.nationalgeographic.com/
+    img: /img/美国国家地理杂志.png
+    description: 美国国家地理杂志，包含远古探秘，奇闻异事，宇宙奥秘，案件解说等有趣栏目。
+
+# 优质博客
+gradeBlog:
+  - name: 科技Lion
+    url: https://kejilion.blogspot.com/
+    img: /img/科技Lion.png
+    description: 科技分享 极致白嫖。
+  - name: 零度博客
+    url: https://www.freedidi.com/
+    img: /img/零度博客.png
+    description: 零度解说博客。
+  - name: 奔跑中的奶酪
+    url: https://www.runningcheese.com/
+    img: /img/奔跑中的奶酪.png
+    description: 有智，有趣，有爱是世界上最美好的三件事。崇尚科技和高效，网站致力于个人提升和价值分享。
+
+# 在线观影
+watchMovie:
+  - name: 茶杯狐
+    url: https://cupfox.love/
+    img: /img/茶杯狐.png
+    description: 同时支持在线下载和字幕。电影、电视剧、动漫、综艺应有尽有。
+  - name: 视频啦
+    url: https://www.shipinla.com/
+    img: /img/视频啦.png
+    description: 最新影视剧情介绍和影视。
+  - name: 可可影视
+    url: https://www.keke1.app/
+    img: /img/可可影视.png
+    description: 聚合全网影片，每天搜集最新电影、电视剧、在线观看网址、蓝光高清正版免费看。
+  - name: 奈飞中文网
+    url: https://netfly.tv/
+    img: /img/奈飞.png
+    description: 热门 Netflix 新剧、电影、动漫、综艺，高清免费片源，每日更新。
+  - name: 搜片
+    url: https://soupian.pro/
+    img: /img/搜片.png
+    description: 聚合全网影片，每天搜集最新电影、电视剧、在线观看网址、蓝光高清正版免费看。
+  - name: 飞快TV
+    url: https://feikuai.tv/
+    img: /img/飞快TV.png
+    description: 飞快TV
+  - name: HDmoli
+    url: https://www.hdmoli.pro/
+    img: /img/HDmoli.png
+    description: 高品质在线影视资源
+  - name: 追影猫
+    url: https://zhuiyingmao2.com/
+    img: /img/追影猫.png
+    description: 高品质在线影视资源
+  - name: 琉璃影院
+    url: https://www.liuliyy.com/
+    img: /img/琉璃影院.png
+    description: 为广大电影爱好者提供了各类最新好看的电影
+  - name: 影友社
+    url: http://www.yingyoushe.com/
+    img: /img/影友社.png
+    description: 手机看电影电视剧大片在线观看的免费网站
+
+
+# 托管平台
+trusteeship:
+  - name: GitHub
+    url: https://github.com/
+    img: /img/github.png
+    description: 全球最大的同性交友网站。
+  - name: 码云
+    url: https://gitee.com/
+    img: /img/码云.png
+    description:  基于Git的代码托管和研发协作平台
+  - name: Vercel
+    url: https://vercel.com/
+    img: /img/Vercel.png
+    description:  Vercel 是一个云计算和部署平台，旨在帮助开发者更轻松地构建、部署和管理他们的应用程序。
+  
+
+# 建站工具
+createStation:
+  - name: Cloudflare
+    url: https://dash.cloudflare.com/
+    img: /img/Cloudflare.png
+    description: 提供内容交付网络和 DDoS 缓解服务。
+  - name: 信息备案管理系统
+    url: https://beian.miit.gov.cn/#/Integrated/index
+    img: /img/信息备案管理系统.png
+    description: 官方的备案信息查询系统。可以查询网站、APP、小程序、快应用的备案信息。
+  - name: TinyPNG
+    url: https://tinypng.com/
+    img: /img/TinyPNG.png
+    description: 智能 WebP、PNG 和 JPEG 压缩可提高网站速度。
+  - name: 站长之家
+    url: https://tool.chinaz.com/
+    img: /img/站长之家.png
+    description: 一个专注于中文网站的综合平台，提供最新的网站资讯、技术、工具、案例、商业等内容，帮助站长提升网站运营效率和收益。
+  - name: Fast
+    url: https://fast.com/
+    img: /img/Fast.png
+    description: 提供当前互联网速度的估算值。通过领先的互联网服务通常可以获得该速度，该类服务使用分布全球的服务器。
+  - name: Whoer
+    url: https://whoer.net/
+    img: /img/Whoer.png
+    description: 可以显示您的IP地址、DNS地址、浏览器、操作系统、位置等信息，并提供一些检测和防检测的工具。
+  - name: 美国地址生成器
+    url: https://www.meiguodizhi.com/
+    img: /img/美国地址生成器.png
+    description:  随机生成美国地址, 身份信息，信用卡信息，手机号码和其他基本信息。还会随机生成工作信息，财务信息，兴趣爱好等信息。
+  - name: Coverview
+    url: https://coverview.vercel.app/editor
+    img: /img/Coverview.png
+    description:  为您的博客创建封面图片。
+  - name: 网站图标查找器
+    url: https://besticon-demo.herokuapp.com/
+    img: /img/网站图标查找器.png
+    description:  在网站上查找图标的服务。
+  - name: favicon-generator
+    url: https://favicon.inbrowser.app/tools/favicon-generator
+    img: /img/favicon-generator.png
+    description: 一个生成favicon的工具。完全在您的浏览器中运行。没有服务器端代码。
+  - name: yesicon
+    url: https://yesicon.app/
+    img: /img/yesicon.png
+    description: 高品质矢量图标免费分享网站。
+  - name: LOGO wine
+    url: https://www.logo.wine/
+    img: /img/LOGOwine.png
+    description:  品牌徽标免费下载SVG矢量和PNG文件格式。
+  - name: PicProse
+    url: https://www.picprose.net/zh
+    img: /img/PicProse.png
+    description:  一款更好的封面图片生成工具,支持自定义比例、遮罩颜色、透明度、字体、图标、标题、作者等，可下载 JPG/PNG/SVG 格式。
+  - name: Photo Relay
+    url: https://www.duelpeak.com/pages/poster
+    img: /img/PhotoRelay.png
+    description:  一个清爽、简单、无需登录的在线封面制作网站。
+
+
+
+# 接码平台
+connectCode:
+  - name: SMS-Activate
+    url: https://sms-activate.org
+    img: /img/SMS-Activate.png
+    description: 付费接码平台,提供多种国家和地区的手机号码供您选择，可用于许多应用程序和网站。
+  - name: 免费接码
+    url: https://mianfeijiema.com/
+    img: /img/mianfeijiema.png
+    description: 免费接码(MianFeiJieMa.com)提供中国、美国、英国等各国免费手机号码短信接收服务。
+
+
+# 实用工具
+practicalTools:
+  - name: Z-Library
+    url: https://z-lib.io/
+    img: /img/Z-Library.png
+    description: Zlibrary被称为全球最大的数字图书馆。
+  - name: rxresu.me
+    url: https://rxresu.me/
+    img: /img/rxresu_me.png
+    description: 一款完全安全、可定制、可移植、开源及永久免费的简历创建工具。
+  - name: Qwerty Learner
+    url: https://qwerty.kaiyi.cool/
+    img: /img/QwertyLearner.png
+    description: 为键盘工作者设计的单词与肌肉记忆锻炼软件。
+  - name: CODEIF
+    url: https://unbug.github.io/codelf/
+    img: /img/CODEIF.png
+    description: CODEIF是一个搜索在线开源平台的变量取名工具。
+  - name: 青蛙快传
+    url: https://cp.ciding.cc/
+    img: /img/青蛙快传.png
+    description: 在线文件分享工具
+  - name: perplexity AI
+    url: https://www.perplexity.ai/
+    img: /img/perplexity.png
+    description: 一款基于人工智能的搜索引擎平台，旨在帮助用户快速高效地获取所需信息。
+  - name: 邮编库
+    url: https://www.youbianku.com/
+    img: /img/邮编库.png
+    description: 主要提供国内任意地址的邮编查询、国际邮编查询、邮编反向查询、任意地址所属街道办事处和社区居委会查询等功能。
+  - name: paperpass
+    url: https://www.paperpass.com/
+    img: /img/paperpass.png
+    description: 学术论文查重网站
+  - name: 云鸽
+    url: https://yunge.in/
+    img: /img/云鸽.png
+    description: 一款跨平台的文件传输助手，可以在不同设备之间快速、方便、安全地共享文件。无需下载或登录。
+
+
+# 工具聚合
+toolsGather:
+  - name: IT-Tools
+    url: https://it-tools.tech/
+    img: /img/IT-Tools.png
+    description: IT-Tools 是为开发人员提供的方便的在线工具集合，具有出色的用户体验。
+  - name: 菜鸟工具
+    url: https://www.jyshare.com/
+    img: /img/菜鸟教程.png
+    description: 菜鸟工具，为开发设计人员提供在线工具。
+  - name: 高手工具
+    url: https://c.p2hp.com/
+    img: /img/高手工具.png
+    description: 提供在线PHP、Python、 CSS、JS 调试，中文简繁体转换，进制转换等工具。
+  - name: 程序员工具
+    url: https://tool.p2hp.com/
+    img: /img/程序员工具.png
+    description: 在线开发工具,Linux在线命令,在线脑图,JSON代码格式化,PHP混淆/加密/解密工具,在线JS/CSS/HTML格式化/压缩。
+  - name: 在线工具
+    url: https://www.zxgj.cn/
+    img: /img/在线工具.png
+    description: 提供基于Web网页的在线工具。
+  - name: 爱资料工具
+    url: https://www.toolnb.com/
+    img: /img/爱资料工具.png
+    description: 为开发运维提供全面的在线工具箱,已开发工具400款,包含开发工具,运维工具,常用工具,SEO站长工具等。
+  - name: 独特工具箱
+    url: https://www.dute.org/
+    img: /img/独特工具箱.png
+    description: 独特工具箱，提供免费在线工具。
+  - name: 工具哇
+    url: https://toolwa.com/
+    img: /img/工具哇.png
+    description: 工具哇，提供各种新奇实用又好玩的免费在线小工具，无需下载。
+  - name: 孟坤工具箱
+    url: http://tool.mkblog.cn/
+    img: /img/孟坤工具箱.png
+    description: 孟坤工具箱网页版。
+
+
+# 在线处理
+onlineExecute:
+  - name: imagesTool
+    url: https://imagestool.com/
+    img: /img/imagestool.png
+    description: ImagesTool 所有的在线工具都使用浏览器技术进行图片处理，导入的文件始终在您的设备上，不会上传，最大程度保护您的隐私。
+  - name: Json.cn
+    url: https://www.json.cn/
+    img: /img/Jsoncn.png
+    description: JSON在线解析及格式化验证
+  - name: iLovePDF
+    url: https://www.ilovepdf.com/
+    img: /img/ilovepdf.png
+    description: 为PDF爱好者提供的PDF文件在线处理工具
+  - name: Bigjpg
+    url: https://bigjpg.com/
+    img: /img/bigjpg.png
+    description: 使用人工智能深度卷积神经网络（CNN）智能无损免费放大图片
+  - name: remove bg
+    url: https://www.remove.bg/zh
+    img: /img/removebg.png
+    description: AI智能抠图
+
+
+
+# 开源应用
+openSouce:
+- name: Watchtower
+  url: https://github.com/containrrr/watchtower
+  img: /img/Watchtower.png
+  description: Watchtower 是一个用于自动更新 Docker 容器的开源工具。
+
+
+# 导航网站
+navStation:
+- name: 图欧学习导航
+  url: https://tuostudy.upnb.top/
+  img: /img/图欧学习导航.png
+  description: 终身学习者的云盘资源与工具导航站
+- name: 开发者导航
+  url: https://codernav.com/
+  img: /img/开发者导航.png
+  description: 开发者导航网收录了大量免费优质的AI人工智能、资源干货、在线工具等众多分类的网站。
+- name: Tbox导航
+  url: https://www.tboxn.com/
+  img: /img/Tbox导航.png
+  description: 包括实用工具、影音工具、图片工具、编程工具、网络资源等几十种分类，覆盖全网在线工具。
+- name: A姐分享
+  url: https://www.ahhhhfs.com/
+  img: /img/A姐分享.png
+  description: 分享各种网络云盘资源、视频课程、高清电影电视剧和羊毛福利，发现一些稀奇古怪的的网站，折腾一些有趣实用的教程。
+- name: Jay的资源库
+  url: https://www.lovejay.top/
+  img: /img/Jay的资源库.png
+  description: 互联网净土，白嫖党天堂，聚合全网优质资源，致力于做到一个网站解决所有问题。
+- name: 书栈网
+  url: https://www.bookstack.cn/
+  img: /img/书栈网.png
+  description: 开发资源导航网站。
+- name: 有点东西
+  url: https://morething.top/
+  img: /img/有点东西.png
+  description: 涵盖娱乐休闲、新闻咨询、资源搜索、编程设计等栏目的综合导航站点
+- name: 终极导航
+  url: https://www.zjnav.com/
+  img: /img/终极导航.png
+  description: 网址类型包括：综合网址，办公网址，运营网址，设计网址，新闻网址，程序员网址，站长网址，音乐网站等。
+- name: 小鲸鱼搜书
+  url: http://www.3646.net/
+  img: /img/小鲸鱼搜书.png
+  description: 电子书下载导航网站。
+- name: 自媒体维基
+  url: https://www.zmt.wiki/
+  img: /img/自媒体维基.png
+  description: 一个为设计、产品、新媒体、开发、人工智能AI、旅游服务、教师等行业定制的导航网站。
+- name: 胖虎的工具箱
+  url: https://www.cxy666.com/
+  img: /img/胖虎的工具箱.png
+  description: 聚合了程序员常用站点工具，分享Java相关技术文章，Java面试题，Java技术栈的优秀文章。
+- name: 叛逆草
+  url: https://www.pncao.com/
+  img: /img/叛逆草.png
+  description: 一个专注于收集和分享免费优质资源的导航网站。
+
+
+# 酷站分享
+coolStation:
+- name: The Useless Web
+  url: https://theuselessweb.com/
+  img: /img/theuselessweb.png
+  description: 随机跳转到其他奇怪而无用的网站
+- name: FUUN.FUN
+  url: https://fuun.fun/
+  img: /img/fuun.png
+  description: 一个收集有趣、沙雕、奇奇怪怪等很多有意思的趣站导航。
+- name: 装逼生成器
+  url: https://c.tianhezulin.com/
+  img: /img/装逼生成器.png
+  description: 免费在线各种生成器小工具集合，包括豪车合同生成器，微信转账、微信红包、装逼助手，装逼整蛊生成器。
+- name: geektyper
+  url: https://geektyper.com/
+  img: /img/geektyper.png
+  description: 伪装黑客炫酷桌面效果
+- name: weavesilk
+  url: http://weavesilk.com/
+  img: /img/weavesilk.png
+  description: 艺术背景图制作
+- name: staggeringbeauty
+  url: http://www.staggeringbeauty.com/
+  img: /img/staggeringbeauty.png
+  description: 当你移动鼠标时，一个巨大的虫子会随着你的动作摆动。
+- name: geoguessr探索世界
+  url: https://www.geoguessr.com/
+  img: /img/geoguessr.png
+  description: 随机街景
+- name: humanbenchmark
+  url: https://humanbenchmark.com/
+  img: /img/humanbenchmark.png
+  description: 测试手速
+- name: airpano
+  url: https://www.airpano.com/
+  img: /img/airpano.png
+  description: 360度全景视频
+- name: 船讯网
+  url: https://shipxy.com/
+  img: /img/船讯网.png
+  description: 一个实时查询船舶动态的公众服务网站。
+- name: 诗三百
+  url: https://www.aichpoem.net/
+  img: /img/诗三百.png
+  description: 人工智能在线诗歌写作平台包含AI作诗,自动写诗,藏头诗生成器,歌词生成器，AI填词,自动电脑对联等功能。
+
+
+# 遨游世界
+helloWorld:
+  - name: YouTube
+    url: https://www.youtube.com/
+    img: /img/youtube.png
+    description: YouTube 是一个全球性的视频分享网站，已经成为了世界上最大的视频分享网站，对全球互联网文化产生了深远的影响。
+  - name: Tiktok
+    url: https://www.tiktok.com/
+    img: /img/Tiktok.png
+    description: 抖音海外版
+  - name: Netflix 
+    url: https://www.netflix.com/
+    img: /img/Netflix.png
+    description: Netflix 是一家美国流媒体服务和在线视频租赁提供商，已经成为了全球最受欢迎的流媒体服务之一。
+  - name: Twitter（X）
+    url: https://twitter.com/
+    img: /img/Twitter.png
+    description: 一个全球性的社交媒体平台，对于新闻、政治、娱乐和社交媒体文化都产生了深远的影响。
+  - name: Telegram
+    url: https://web.telegram.org/
+    img: /img/Telegram.png
+    description: 一款跨平台的即时通讯软件，用户可以相互交换加密与自毁消息，发送照片、影片等所有类型文件。
+  - name: Instagram
+    url: https://www.instagram.com/
+    img: /img/Instagram.png
+    description: 一个基于图片和视频分享的社交媒体平台，允许用户拍摄照片和视频并把它们分享在各种社交网络。
+  - name: Facebook
+    url: https://www.facebook.com/
+    img: /img/Facebook.png
+    description: 一个社交网络服务网站，可以让用户发送文字消息、图片、视频等多种形式的内容，分享个人生活、观点和情感。
+  - name: 维基百科
+    url: https://zh.wikipedia.org/
+    img: /img/维基百科.png
+    description: 一个免费且开放的在线百科全书，也是全球最大的网络百科全书。
+  - name: Quora
+    url: https://www.quora.com/
+    img: /img/Quora.png
+    description: Quora 是一个基于问答的社交网络网站。  
 
 
 # 关于页
@@ -166,9 +731,9 @@ aboutPage:
     html: '<blockquote><p>本站是hexo主题<a href="https://github.com/HCLonely/hexo-theme-webstack">hexo-theme-webstack</a>的demo站。</p></blockquote>'
   webmaster:
     head: 关于站长
-    name: HCLonely
+    name: 時光
     url: https://blog.shiguangcoding.eu.org/
-    img: /images/logos/myblog.png
+    img: /img/avatar.jpg
     description: 期待与你相遇
     html: '<br /><blockquote><p>本站是<a href="https://github.com/Shiguang-coding/navigate">時光导航站</a>基于<a href="https://github.com/WebStackPage/WebStackPage.github.io">WebStackPage</a>项目做的一款<a href="https://hexo.io/">Hexo</a>主题。</p></blockquote>'
 
