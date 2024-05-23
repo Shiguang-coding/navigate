@@ -34,6 +34,9 @@ menu:
       - name: 社交媒体
         icon: fas fa-address-card
         config: aboutme
+      - name: 演示站点
+        icon: fa fa-anchor
+        config: demoStation
   - name: 学无止境
     icon: fas fa-graduation-cap
     submenu:
@@ -114,15 +117,36 @@ menu:
     config: helloWorld
   
 
+# 社交媒体
 aboutme:
-  - name: 時光的博客园子
-    url: https://blog.shiguangcoding.eu.org/
+  - name: 時光
+    url: https://www.shiguangcoding.eu.org/
     img: /img/avatar.jpg
-    description: 个人博客
+    description: 時光的博客园子
   - name: Github
     url: https://github.com/Shiguang-coding/
     img: /img/github.png
     description: 時光的Github
+  - name: 博客园
+    url: https://www.cnblogs.com/an-shiguang
+    img: /img/cnblogs.png
+    description: 時光的博客园主页
+
+
+# 演示站点
+demoStation:
+  - name: lobe-chat
+    url: https://lobe.shiguang666.eu.org/
+    img: /img/lobe-chat.png
+    description: 時光的lobe-chat演示站
+  - name: chat-gpt-next-web
+    url: https://chatgpt.shiguang666.eu.org/
+    img: /img/chat-gpt-next-web.png
+    description: 時光的chat-gpt-next-web演示站
+  - name: gemini-pro-chat
+    url: https://gemini.shiguang666.eu.org/
+    img: /img/gemini-pro-chat.png
+    description: 時光的gemini-pro-chat演示站
 
 
 
@@ -732,7 +756,7 @@ aboutPage:
   webmaster:
     head: 关于站长
     name: 時光
-    url: https://blog.shiguangcoding.eu.org/
+    url: https://www.shiguangcoding.eu.org/
     img: /img/avatar.jpg
     description: 期待与你相遇
     html: '<br /><blockquote><p>本站是<a href="https://github.com/Shiguang-coding/navigate">時光导航站</a>基于<a href="https://github.com/WebStackPage/WebStackPage.github.io">WebStackPage</a>项目做的一款<a href="https://hexo.io/">Hexo</a>主题。</p></blockquote>'
