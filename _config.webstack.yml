@@ -159,6 +159,35 @@ demoStation:
     url: https://gemini.shiguang666.eu.org/
     img: /img/gemini-pro-chat.png
     description: 時光的gemini-pro-chat演示站
+  - name: 高考倒计时1
+    url: https://countdown.shiguang666.eu.org/ 
+    img: /img/avatar.jpg
+    description: 高考倒计时
+  - name: 高考倒计时2
+    url: https://countdown1.shiguang666.eu.org/ 
+    img: /img/avatar.jpg
+    description: 高考倒计时
+  - name: 高考倒计时3
+    url: https://countdown2.shiguang666.eu.org/
+    img: /img/avatar.jpg
+    description: 高考倒计时
+  - name: 在线小游戏
+    url: https://games.shiguang666.eu.org
+    img: /img/avatar.jpg
+    description: 時光的在线小游戏演示站
+  - name: 怀旧游戏机
+    url: https://game.shiguang666.eu.org
+    img: /img/avatar.jpg
+    description: 時光的怀旧游戏机演示站
+  - name: 随机小姐姐
+    url: https://blog.shiguang666.eu.org/xjj/
+    img: /img/avatar.jpg
+    description: 時光的随机小姐姐演示站
+  - name: 影视解析
+    url: https://vip.shiguang666.eu.org/
+    img: /img/avatar.jpg
+    description: 時光的影视解析演示站
+  
 
 
 
@@ -255,6 +284,10 @@ aiChat:
     url: https://www.coze.com/
     img: /img/Coze.png
     description: 由字节跳动在海外推出的一个AI聊天机器人和应用开发平台。
+  - name: deepseek
+    url: https://chat.deepseek.com/
+    img: /img/deepseek.png
+    description: 各大AI模型API购买，一个账号通用所有模型
   - name: 讯飞星火
     url: https://xinghuo.xfyun.cn/
     img: /img/讯飞星火.png
@@ -295,6 +328,10 @@ aiApplication:
     url: https://bardpdf.dev/
     img: /img/bardpdf.png
     description: 一款可以通过Gemini与PDF文件进行交流的工具。
+  - name: AIUM
+    url: https://aium.cc/
+    img: /img/aium.png
+    description: 各大AI模型API购买，一个账号通用所有模型
 
 
 # AI导航
@@ -307,6 +344,18 @@ aiNavication:
     url: https://www.aiyjs.com/
     img: /img/AI研究所.png
     description: 收录 AI 相关工具。
+  - name: amz123
+    url: https://www.amz123.com/ai
+    img: /img/amz123.png
+    description: AI工具箱导航网站。
+  - name: ai-bot
+    url: https://ai-bot.cn/
+    img: /img/ai-bot.png
+    description: 收录了国内外数百个不同类型的A工具。
+  - name: naviai
+    url: https://www.naviai.cn/
+    img: /img/naviai.png
+    description: 收录了国内外2000+优质AI工具。
 
 
 
@@ -585,6 +634,14 @@ createStation:
     url: https://www.duelpeak.com/pages/poster
     img: /img/PhotoRelay.png
     description:  一个清爽、简单、无需登录的在线封面制作网站。
+  - name: Font Awesome
+    url: https://fontawesome.com/
+    img: /img/fontawesome.png
+    description:  图标库和工具包
+  - name: Font Awesome中文网
+    url: https://fontawesome.p2hp.com/
+    img: /img/FontAwesome中文网.png
+    description:  Font Awesome中文网
 
 
 
