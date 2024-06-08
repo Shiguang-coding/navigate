@@ -58,6 +58,9 @@ menu:
       - name: AI应用
         icon: fa fa-cog
         config: aiApplication
+      - name: AI搜索
+        icon: fa fa-search
+        config: aiSearch
       - name: AI导航
         icon: fa fa-plane
         config: aiNavication
@@ -155,22 +158,14 @@ demoStation:
     url: https://chatgpt.shiguang666.eu.org/
     img: /img/chat-gpt-next-web.png
     description: 時光的chat-gpt-next-web演示站
+  - name: Talk with Gemini
+    url: https://geminichat.shiguang666.eu.org/
+    img: /img/gemini.png
+    description: 時光的Talk with Gemini演示站
   - name: gemini-pro-chat
     url: https://gemini.shiguang666.eu.org/
     img: /img/gemini-pro-chat.png
     description: 時光的gemini-pro-chat演示站
-  - name: 高考倒计时1
-    url: https://countdown.shiguang666.eu.org/ 
-    img: /img/avatar.jpg
-    description: 高考倒计时
-  - name: 高考倒计时2
-    url: https://countdown1.shiguang666.eu.org/ 
-    img: /img/avatar.jpg
-    description: 高考倒计时
-  - name: 高考倒计时3
-    url: https://countdown2.shiguang666.eu.org/
-    img: /img/avatar.jpg
-    description: 高考倒计时
   - name: 在线小游戏
     url: https://games.shiguang666.eu.org
     img: /img/avatar.jpg
@@ -187,6 +182,18 @@ demoStation:
     url: https://vip.shiguang666.eu.org/
     img: /img/avatar.jpg
     description: 時光的影视解析演示站
+  - name: 高考倒计时1
+    url: https://countdown.shiguang666.eu.org/ 
+    img: /img/avatar.jpg
+    description: 時光的高考倒计时演示站
+  - name: 高考倒计时2
+    url: https://countdown1.shiguang666.eu.org/ 
+    img: /img/avatar.jpg
+    description: 時光的高考倒计时演示站
+  - name: 高考倒计时3
+    url: https://countdown2.shiguang666.eu.org/
+    img: /img/avatar.jpg
+    description: 時光的高考倒计时演示站
   
 
 
@@ -333,6 +340,41 @@ aiApplication:
     img: /img/aium.png
     description: 各大AI模型API购买，一个账号通用所有模型
 
+# AI搜索
+aiSearch:
+  - name: perplexity AI 
+    url: https://www.perplexity.ai/ 
+    img: /img/perplexity.png
+    description: 一款基于人工智能的搜索引擎平台，旨在帮助用户快速高效地获取所需信息。
+  - name: 百小应
+    url: https://ying.baichuan-ai.com/
+    img: /img/百小应.png
+    description:  由百川智能的工程师们创造的大语言模型。
+  - name: 360AI搜索
+    url: https://so.chat.360.cn/
+    img: /img/360AI搜索.png
+    description: 360AI搜索是一款由360集团推出的创新性答案引擎。
+  - name: 天工AI
+    url: https://tian-gong.net/
+    img: /img/天工AI.png
+    description: 一个由昆仑万维公司精心打造的人工智能助手。
+  - name: 腾讯元宝
+    url: https://yuanbao.tencent.com/
+    img: /img/腾讯元宝.png
+    description: 一个由腾讯基于混元大模型研发的人工智能助手。
+  - name: 海螺AI
+    url: https://hailuoai.com/
+    img: /img/海螺AI.png
+    description: 上海稀宇科技有限公司（MiniMax）旗下的AI助理。
+  - name: ThinkAny
+    url: https://thinkany.ai/
+    img: /img/ThinkAny.png
+    description: ThinkAny AI公司开发的大型语言模型助手。
+  - name: Kimi
+    url: https://kimi.moonshot.cn/
+    img: /img/Kimi.png
+    description: 由月之暗面科技有限公司开发的人工智能助手。
+
 
 # AI导航
 aiNavication:
@@ -399,10 +441,6 @@ practicalTools:
     url: https://cp.ciding.cc/
     img: /img/青蛙快传.png
     description: 在线文件分享工具
-  - name: perplexity AI
-    url: https://www.perplexity.ai/
-    img: /img/perplexity.png
-    description: 一款基于人工智能的搜索引擎平台，旨在帮助用户快速高效地获取所需信息。
   - name: 邮编库
     url: https://www.youbianku.com/
     img: /img/邮编库.png
